@@ -1,0 +1,17 @@
+transformers>=5.2.0
+sentencepiece>=0.2.0
+protobuf>=4.0
+triton>=3.4.0
+kernels>=0.15.2,<0.16.0
+torch>=2.6.0
+numpy>=1.26.0,<2.0
+scikit-learn>=1.5.0
+statsmodels>=0.14.6
+pandas>=2.0
+datasets>=2.14
+pyarrow>=21.0.0
+requests>=2.31
+matplotlib>=3.8
+tqdm>=4.66
+accelerate>=0.30
+openpyxl>=3.1
