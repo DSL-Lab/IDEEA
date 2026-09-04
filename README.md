@@ -1,6 +1,6 @@
 # IDEEA: training-free Input-Dependent stEEring via Activation cluster matching
 
-<!-- <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b" alt="arXiv"></a> -->
+<a href="https://arxiv.org/abs/2609.02089"><img src="https://img.shields.io/badge/arXiv-2609.02089-b31b1b" alt="arXiv"></a>
 
 <img src="assets/pipeline.png">
 
@@ -113,15 +113,18 @@ python -m cli.run_eval --task <task> --model <model> --method <method> --seed 0
 
 `run_eval.py` generates steered responses and judges them in one call by default; use `--phase generate/judge` to run the two stages separately, and `--overwrite` to force new responses.
 
-<!-- ## 📝 Citation
+## 📝 Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{wang-etal-2026-ideea,
-    title={IDEEA: training-free Input-Dependent stEEring via Activation cluster matching},
-    author={Wang, Zheng and Li, Muchen and Liao, Renjie and Leng, Yan},
-    booktitle={Findings of the Association for Computational Linguistics: EMNLP 2026},
-    year={2026}
+@misc{wang2026ideeatrainingfreeinputdependentsteering,
+      title={IDEEA: training-free Input-Dependent stEEring via Activation cluster matching}, 
+      author={Zheng Wang and Muchen Li and Renjie Liao and Yan Leng},
+      year={2026},
+      eprint={2609.02089},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2609.02089}, 
 }
-``` -->
+```
